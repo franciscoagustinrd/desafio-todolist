@@ -1,0 +1,77 @@
+body{
+
+	font-family: "Roboto", sans-serif;
+}
+h1{
+	font-weight: 500;
+  font-style: normal;
+	border-bottom: 1.5px solid #8e8e8e;
+	padding-bottom:20px;
+}
+form {
+	display: flex;
+	align-items: flex-end; 
+	gap: 10px;
+}
+label{
+	color:#424242;
+	margin-bottom: 5px;
+}
+li {
+	margin-bottom: 1rem;
+	}
+span{
+		margin-right: 10px;
+}
+th{
+	text-align: left;
+}
+.container{
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		width: 700px;
+		background-color: #ECECEC;
+		padding: 30px;
+}
+.entrada-principal{
+	width: 600px;
+	padding: 8px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
+.btn-agregar{
+	background-color: #197742;
+	color: #fff;
+	padding: 8px 15px;
+	border: 0;
+	border-radius: 3px;
+}
+.input-grupo {
+	display: flex;
+	flex-direction: column;
+}
+.numero-cuenta{
+	font-weight: bolder;
+}
+.datos-tareas{
+	display: flex;	
+	padding-top: 30px;
+	justify-content: space-between;
+}
+.numero-tareas{
+	display: flex;
+	flex-direction: column;
+}
+.id-numero{
+	padding-right: 15px;
+}
+.acciones {
+	display: flex;
+}
+td.acciones i {
+	margin-left: 12px;
+	color:crimson;
+	cursor: pointer;
+	vertical-align: baseline
+}
